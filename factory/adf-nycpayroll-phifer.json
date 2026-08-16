@@ -1,0 +1,21 @@
+{
+	"name": "adf-nycpayroll-phifer",
+	"properties": {
+		"globalParameters": {
+			"pipeline_param_fiscalyear": {
+				"type": "int",
+				"value": 2020
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dadd58ec-b1b6-4ffe-ae8e-5f6f44c8d1c2",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
